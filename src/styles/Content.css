@@ -1,0 +1,12 @@
+.content_tabs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content_area {
+    background-color: var(--white);
+    padding: 50px;
+    color: var(--black);
+    border-left: var(--purple) solid 15px;
+    border-right: var(--purple) solid 15px;
+}
