@@ -42,8 +42,8 @@ export default class Tabs extends Component {
         return(
             <div className="content_tabs_wrapper">
                 <div className="content_tabs">
-                    <div className="content_tab block_link active" onClick={this.handleDevClick}>Design</div>
-                    <div className="content_tab block_link" onClick={this.handleDesignClick}>Development</div>
+                    <button className="content_tab block_link active" onClick={this.handleDevClick}>Design</button>
+                    <button className="content_tab block_link" onClick={this.handleDesignClick}>Development</button>
                 </div>
                 <div className="content_area">
                     {content}
