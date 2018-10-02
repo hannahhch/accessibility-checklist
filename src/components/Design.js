@@ -91,7 +91,7 @@ export default class Design extends Component {
 
             <div className="checklist-item">
                 <input type="checkbox" id="links_two"/>
-                <label for="links_two">Links meet contrast requirements before, during and after a hover.</label>
+                <label for="links_two">Links meet contrast requirements before, during and after a hover (unless underlined).</label>
             </div>
 
             <div className="checklist-item">
@@ -101,7 +101,7 @@ export default class Design extends Component {
 
             <div className="checklist-item">
                 <input type="checkbox" id="links_four"/>
-                <label for="links_four">Links have a "large" clickable area.</label>
+                <label for="links_four">Links have a "large" (44 x 44px) clickable area.</label>
             </div>
 
             <h2>Forms</h2>
