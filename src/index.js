@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {StaticRouter, Route, Switch} from 'react-router-dom';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <StaticRouter>
       <Switch>
         <Route exact path = "/" component={App} />
       </Switch>
-  </BrowserRouter>
+  </StaticRouter>
 
 
     ,document.getElementById('root')
