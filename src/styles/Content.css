@@ -10,3 +10,8 @@
     border-left: var(--purple) solid 15px;
     border-right: var(--purple) solid 15px;
 }
+
+.content_tabs_wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}

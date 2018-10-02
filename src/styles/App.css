@@ -48,3 +48,9 @@ footer a:hover {
     cursor: pointer;
 }
 
+.block_link.active {
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+}
+
