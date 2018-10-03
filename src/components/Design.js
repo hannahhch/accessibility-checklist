@@ -91,7 +91,7 @@ export default class Design extends Component {
 
             <div className="checklist-item">
                 <input type="checkbox" id="links_two"/>
-                <label for="links_two">Links meet contrast requirements before, during and after a hover (unless underlined).</label>
+                <label for="links_two">Links meet contrast requirements when normal, hovered or visited (unless underlined).</label>
             </div>
 
             <div className="checklist-item">

@@ -14,15 +14,17 @@ export default class Tabs extends Component {
         };
      }
 
-     handleDesignClick() {
-         this.setState({
+     handleDesignClick(event) {
+        event.currentTarget.blur();
+        this.setState({
             isDesign: false,
             isActive: true
         });
      }
 
-     handleDevClick() {
-         this.setState({
+     handleDevClick(event) {
+        event.currentTarget.blur();
+        this.setState({
             isDesign: true,
             isActive: true
         });
@@ -30,20 +32,24 @@ export default class Tabs extends Component {
 
     render(){
         const isDesign = this.state.isDesign;
+        let designClasses = 'content_tab block_link';
+        let devClasses = 'content_tab block_link';
           
         let content;
 
-          if (isDesign) {
+        if (isDesign) {
             content = <Design />;
-          } else {
-            content = <Dev />
-          }
+            designClasses += ' active';
+        } else {
+            content = <Dev />;
+            devClasses += ' active';
+        }
 
         return(
             <div className="content_tabs_wrapper">
                 <div className="content_tabs">
-                    <button className="content_tab block_link active" onClick={this.handleDevClick}>Design</button>
-                    <button className="content_tab block_link" onClick={this.handleDesignClick}>Development</button>
+                    <button className={designClasses} onClick={this.handleDevClick}>Design</button>
+                    <button className={devClasses} onClick={this.handleDesignClick}>Development</button>
                 </div>
                 <div className="content_area">
                     {content}
