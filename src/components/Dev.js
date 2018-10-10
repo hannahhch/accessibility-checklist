@@ -22,7 +22,7 @@ export default class Dev extends Component {
 
             <div className="checklist-item">
                 <input type="checkbox" id="content_four"/>
-                <label for="content_four">The html lang attribute has been set</label>    
+                <label for="content_four">The HTML lang attribute has been set</label>    
             </div>
 
             <div className="checklist-item">
@@ -47,10 +47,6 @@ export default class Dev extends Component {
                 <label for="image_three">If background images contain necessary content, a screen reader only text element is aria label has been provided</label>    
             </div>
 
-            <div className="checklist-item">
-                <input type="checkbox" id="image_four"/>
-                <label for="image_four">If background images contain necessary content, a screen reader only text element is aria label has been provided</label>    
-            </div>
 
             <div className="checklist-item">
                 <input type="checkbox" id="image_five"/>
