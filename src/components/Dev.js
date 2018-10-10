@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Dev extends Component {
   render(){
     return(
-        <section>
+        <main>
             <h2>Content</h2>
             <div className="checklist-item">
                 <input type="checkbox" id="content_one"/>
@@ -22,7 +22,7 @@ export default class Dev extends Component {
 
             <div className="checklist-item">
                 <input type="checkbox" id="content_four"/>
-                <label for="content_four">The body lang attribute has been set</label>    
+                <label for="content_four">The html lang attribute has been set</label>    
             </div>
 
             <div className="checklist-item">
@@ -114,7 +114,7 @@ export default class Dev extends Component {
                 <label for="form_two">All forms are 100% navigatable by keyboard.</label>    
             </div>
 
-        </section>
+        </main>
     )
   }
 }

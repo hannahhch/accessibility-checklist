@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Design extends Component {
   render(){
     return(
-        <section>
+        <main>
             <h2>Content</h2>
 
             <div className="checklist-item">
@@ -144,7 +144,7 @@ export default class Design extends Component {
                 <label for="animation_one">Animated elements are subtle and there is a clear play/pause button if appropriate</label>
             </div>
 
-        </section>
+        </main>
     )
   }
 }
