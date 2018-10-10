@@ -25,6 +25,11 @@ export default class Dev extends Component {
                 <label for="content_four">The body lang attribute has been set</label>    
             </div>
 
+            <div className="checklist-item">
+                <input type="checkbox" id="content_five"/>
+                <label for="content_five">Visualy hidden content is also hidden from screen readers</label>    
+            </div>
+
             <h2>Images</h2>
 
             <div className="checklist-item">
@@ -47,23 +52,67 @@ export default class Dev extends Component {
                 <label for="image_four">If background images contain necessary content, a screen reader only text element is aria label has been provided</label>    
             </div>
 
+            <div className="checklist-item">
+                <input type="checkbox" id="image_five"/>
+                <label for="image_five">Icons without text have been given an aria-label</label>    
+            </div>
+
             <h2>State Changes</h2>
-            
-            <h2>Color</h2>
-            
 
-            
+            <div className="checklist-item">
+                <input type="checkbox" id="state_one"/>
+                <label for="state_one">Focus-able elements have visual states</label>    
+            </div>
 
-            <h2>Links</h2>
+            <div className="checklist-item">
+                <input type="checkbox" id="state_two"/>
+                <label for="state_two">Popup modals can be closed with the esc key</label>    
+            </div>
 
+            <div className="checklist-item">
+                <input type="checkbox" id="state_three"/>
+                <label for="state_three">Important information that appears on hover, can also be triggered on click</label>    
+            </div>
             
+            <h2>CSS</h2>
+
+            <div className="checklist-item">
+                <input type="checkbox" id="css_one"/>
+                <label for="css_one">Page elements do not have fixed dimensions</label>    
+            </div>
+            
+            <div className="checklist-item">
+                <input type="checkbox" id="css_two"/>
+                <label for="css_two">Uppercase text has been added with CSS instead of HTML</label>    
+            </div>
+
+            <h2>Tables</h2>
+
+            <div className="checklist-item">
+                <input type="checkbox" id="table_one"/>
+                <label for="table_one">All data has been associated with a table header</label>    
+            </div>
+
+            <div className="checklist-item">
+                <input type="checkbox" id="table_two"/>
+                <label for="table_two">There are no empty table header cells</label>    
+            </div>
+
+            <div className="checklist-item">
+                <input type="checkbox" id="table_three"/>
+                <label for="table_three">Table is used to present tabular data, or has been given the role of presentation.</label>    
+            </div>
+
             <h2>Forms</h2>
+            <div className="checklist-item">
+                <input type="checkbox" id="form_one"/>
+                <label for="form_one">All form input elements have an associated label, or screen reader label</label>    
+            </div>
 
-            
-            <h2>Error Messages</h2>
-
-            <h2>Animation</h2>
-            
+            <div className="checklist-item">
+                <input type="checkbox" id="form_two"/>
+                <label for="form_two">All forms are 100% navigatable by keyboard.</label>    
+            </div>
 
         </section>
     )
